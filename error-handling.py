@@ -8,14 +8,14 @@ def main():
     try:
         with open(filename, 'r') as infile:
             content = infile.read()
-            print("File read successfully ✅")
+            print("File read successfully ")
 
         modified_content = modify_content(content)
 
         new_filename = "modified_" + filename
         with open(new_filename, 'w') as outfile:
             outfile.write(modified_content)
-            print(f"Modified content written to {new_filename} 📝")
+            print(f"Modified content written to {new_filename} ")
 
     except FileNotFoundError:
         print(" Error: File not found. Please check the name and try again.")

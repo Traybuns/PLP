@@ -16,7 +16,7 @@ def create_sample_data():
     products = ['Laptop', 'Mouse', 'Keyboard', 'Monitor', 'Webcam', 'Headphones', 'Tablet', 'Smartphone']
     
     data = []
-    #addition
+    
     for date in dates:
     
         num_transactions = random.randint(3, 8)

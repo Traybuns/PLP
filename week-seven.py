@@ -12,7 +12,7 @@ def create_sample_data():
     start_date = datetime.now() - timedelta(days=30)
     dates = [start_date + timedelta(days=i) for i in range(30)]
     
-
+########
     products = ['Laptop', 'Mouse', 'Keyboard', 'Monitor', 'Webcam', 'Headphones', 'Tablet', 'Smartphone']
     
     data = []
